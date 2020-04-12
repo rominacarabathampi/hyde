@@ -9,9 +9,9 @@ highlighter:      pygments
 # Setup
 title:            Romina Caraba-Thampi
 tagline:          'Personal Page'
-description:      'Enthusiastic Machine Learning Engineer eager to contribute to team success through hard work, attention to detail and excellent organizational skills. Clear understanding of probability, statistics, analysis and training in Python. Motivated to learn, grow and excel in the tech industry.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+description:      'Enthusiastic Machine Learning Engineer eager to contribute to team success through hard work, attention to detail and excellent organizational skills.'
+baseurl:          https://rominacarabathampi.ca/ # the subpath of your site, e.g. /blog/
+url:              https://rominacarabathampi.ca/ # the base hostname & protocol for your site
 
 author:
   name:           'Romina Caraba-Thampi'
