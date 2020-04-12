@@ -32,7 +32,8 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  /* font-family: "PT Sans", Helvetica, Arial, sans-serif;*/
+  font-family: 'Playfair Display', serif;
 }
 @media (min-width: 48em) {
   html {
@@ -57,7 +58,7 @@ html {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
-  background-color: #202020;
+  background-color: #f0b4b9;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -79,7 +80,8 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+ /* font-family: "Abril Fatface", serif;*/
+  font-family: 'Playfair Display', serif;
   font-size: 3.25rem;
 }
 
@@ -177,6 +179,14 @@ a.sidebar-nav-item:focus {
 
 /* Base16 (http://chriskempson.github.io/base16/#default) */
 
+/* PEACH ROSE */
+.theme-base-08 .sidebar {
+  background-color: #f0b4b9;
+}
+.theme-base-08 .content a,
+.theme-base-08 .related-posts li a:hover {
+  color: #f0b4b9;
+}
 /* Red */
 .theme-base-08 .sidebar {
   background-color: #ac4142;
