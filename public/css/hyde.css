@@ -43,7 +43,7 @@ html {
 @media (min-width: 58em) {
   html {
     /* change size from 20px*/
-    font-size: 12px;
+    font-size: 20px;
   }
 }
 
