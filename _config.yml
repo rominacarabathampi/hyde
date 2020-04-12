@@ -3,19 +3,19 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
-relative_permalinks: true
+# permalink:        pretty
+# relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            Romina Caraba-Thampi
+tagline:          'Personal Page'
+description:      'Enthusiastic Machine Learning Engineer eager to contribute to team success through hard work, attention to detail and excellent organizational skills. Clear understanding of probability, statistics, analysis and training in Python. Motivated to learn, grow and excel in the tech industry.'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Romina Caraba-Thampi'
+  url:            https://www.linkedin.com/in/rominacarabathampi/
 
 paginate:         5
 
@@ -23,4 +23,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/rominacarabathampi/personal_page
