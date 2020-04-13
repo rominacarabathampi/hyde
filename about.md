@@ -2,8 +2,6 @@
 layout: page
 title: About
 ---
-## About Me
-
 ## Research Experience
 My research experience include large data analysis regarding the FDA-approved drugs, building a convolutional neural network for image detection of cancerous tissue based on an article, as well as trend analysis of crime rates in the Greater Toronto Area (GTA).
 
