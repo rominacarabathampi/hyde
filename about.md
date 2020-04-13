@@ -30,5 +30,4 @@ For more details regarding the projects, please see the Projects tab on the navi
 ### Contact Details
 You can find my resume [here](https://github.com/rominacarabathampi/personal_page/blob/master/public/Romina%20Caraba%20Machine%20Learning%20Engineer%20Resume.pdf).
 
-I am best contacted at my email address romina.caraba@gmail.com.
-[LinkedIn](https://www.linkedin.com/in/rominacarabathampi/)
+I am best contacted at my email address romina.caraba@gmail.com or on [LinkedIn](https://www.linkedin.com/in/rominacarabathampi/)
