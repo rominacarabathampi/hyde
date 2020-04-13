@@ -4,7 +4,7 @@ title: About
 ---
 ## About Me
 
-## Researh Experience
+## Research Experience
 My research experience include large data analysis regarding the FDA-approved drugs, building a convolutional neural network for image detection of cancerous tissue based on an article, as well as trend analysis of crime rates in the Greater Toronto Area (GTA).
 
 ## Academic Background
@@ -24,7 +24,7 @@ I have used Linux for 5 years, with proficiency in git, bash and unix commands.
 I am familiar with both Google Cloud Services and Amazon Web Services as I have used them on personal and academic projects.
 
 
-For more details regarding the projects, please see the Projects tab on the navigation bar.
+For more details regarding the projects, please see [Projects](https://rominacarabathampi.ca/) page.
 
 
 ### Contact Details
