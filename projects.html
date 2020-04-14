@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
-    <h1 class="post-title">
+    <h1>
       <a href="{{ post.url }}">
         {{ post.title }}
       </a>
@@ -17,19 +18,20 @@ layout: default
   {% endfor %}
 </div>
 
+<!-- Pagination links -->
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+    <a href="/page{{paginator.next_page}}" class="older">Older</a>
   {% else %}
-    <span class="pagination-item older">Older</span>
+    <span class="next">Older</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+      <a href="/" class="newer">Newer</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+      <a href="/page{{paginator.previous_page}}" class="newer">Newer</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">Newer</span>
+    <span class="previous">Newer</span>
   {% endif %}
 </div>
