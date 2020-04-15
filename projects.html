@@ -1,14 +1,36 @@
 ---
 layout: page
-title: Projects
+title: Home
 ---
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-Thanks for reading!
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
 
-
-##Cancer Detection - Image Recognition
-For this project I had developed a neural network from scratch based on article ... and the publicly-available dataset provided by ...website.
-For more details of this project, click  [rominacarabathampi.ca/2020-04-13-cancer.md](here)
-
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
