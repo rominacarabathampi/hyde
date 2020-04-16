@@ -5,8 +5,10 @@ title: Projects
 
 ## Cancer Detection Project - Image Recognition
 
-An article written about the project can be found [here](https://rominacarabathampi.ca/_posts/2020-04-14-cancer.md)
-To see the project on Github, click [here](https://github.com/rominacarabathampi/Cancer-detection-capstone) 
+In summer 2019, I have worked on a capstone project for the completion of a Data Science diploma from Brainstation.
+For this project I have developed my own convolutional neural network algorithm as the data were images of lymph node sections. I had build a model accuracy of 80-87% which were good enough for the given circumstances.
+The data was provided by the [Patch Camelyon Challenge](https://camelyon16.grand-challenge.org/).
+To see the project on Github, please see [here](https://github.com/rominacarabathampi/Cancer-detection-capstone) 
 
 ## Trend Analysis of Crimes in Greater Toronto Area (GTA)
 For a summer school project, I had analysed [data](http://data.torontopolice.on.ca/pages/open-data) publicly-provided by the Toronto Police on Crime rates. Interestingly enough the highest crime hours are 12 am and 12 pm respectively. As for which areas are the most "dangerous" in GTA, read [here](https://github.com/rominacarabathampi/PythonProjects/blob/master/toronto_crime_rate.ipynb) from the Jupyter Notebook.
