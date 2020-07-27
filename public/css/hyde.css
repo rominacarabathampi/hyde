@@ -33,7 +33,7 @@
 
 html {
   /* font-family: "PT Sans", Helvetica, Arial, sans-serif;*/
-  font-family: 'Playfair Display', serif;
+  font-family: 'Merriweather', serif;
 }
 @media (min-width: 48em) {
   html {
@@ -85,7 +85,7 @@ html {
  /* font-family: "Abril Fatface", serif;
   * changing the font-size: 3.25rem;
   */
-  font-family: 'Playfair Display', serif;
+  font-family: 'Merriweather', serif;
   font-size: 1.50rem;
 }
 
