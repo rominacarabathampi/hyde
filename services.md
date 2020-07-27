@@ -3,7 +3,6 @@ layout: page
 title: Services
 ---
 
+I offer services as a machine learning engineer, data analytics and AI consultancy. 
+If you are interested in working with me, please contact me via email at <romina.caraba@gmail.com>. We can set up a meeting and discuss what I can do for your business.
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
